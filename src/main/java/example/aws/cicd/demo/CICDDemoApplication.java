@@ -24,6 +24,11 @@ public class CICDDemoApplication {
         SpringApplication.run(CICDDemoApplication.class, args);
     }
 
+    @GetMapping("/")
+    public ResponseEntity<String> getRequestTest() {
+        return ResponseEntity.ok("Welcome");
+    }
+
     @GetMapping("/workers")
     public ResponseEntity<List<Worker>> getAllWorkers() {
         return ResponseEntity.ok(service.getAll());

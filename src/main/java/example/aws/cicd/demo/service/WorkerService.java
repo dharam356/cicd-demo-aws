@@ -11,7 +11,7 @@ import java.util.List;
 public class WorkerService {
     private List<Worker> workers = List.of(new Worker(5, "Worker5", "e@a.com", "9876543210"),
             new Worker(1, "Worker1", "a@a.com", "9876543210"),
-            new Worker(2, "Worker2", "b@a.com", "9876543201"),
+            //new Worker(2, "Worker2", "b@a.com", "9876543201"),
             new Worker(3, "Worker3", "c@a.com", "9876543120"),
             new Worker(4, "Worker4", "d@a.com", "9876542310"));
 
